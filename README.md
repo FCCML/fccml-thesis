@@ -187,4 +187,13 @@
 - Model performance of MLP-2, MLP-4, MLP-8 on Variable Sized Graphs using event accuracy
 ```fcc_experiment_10_x_model_performance_MLP_2_4_8.ipynb```
 
-
+# How to run each experiment 
+- Each model training notebook is associated with a corresponding model performance notebook
+## Model 
+- Specify the path where the dataset is located. It could be directly uploaded in the session or could be hosted on your google drive. 
+- If you use your google drive to host the dataset, mount your google drive and authenticate your account and connect your colab session with the drive ( just run the specific cell and it works). This is also useful if you want to save your model results into your google drive as well. Let this be Destination 1.
+- If however you are just experimenting, uploading your dataset for the current session and storing the files temporarily then you can specify the path as '/content'. 
+-  Specify the number of events to be used in the ML pipeline. If you want a quick check, keep the TOTAL_EVENTS = 10, if you want to run the complete pipeline then you can specify TOTAL_EVENTS = 10000. The upper limit is 10000 events so if you specify more than that, it might throw an error. 
+## Model Performance
+- If you didn't specify a google drive path, your output files of model training notebook are only limited to that session.
+- For evaluating model performance specify the same Destination 1 (Google drive path) and run the notebook to get access to different measures of accuracy. 
