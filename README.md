@@ -187,7 +187,7 @@
 - Model performance of MLP-2, MLP-4, MLP-8 on Variable Sized Graphs using event accuracy
 ```fcc_experiment_10_x_model_performance_MLP_2_4_8.ipynb```
 
-# How to run each experiment 
+<!-- # How to run each experiment 
 - Each model training notebook is associated with a corresponding model performance notebook
 ## Model 
 - Specify the path where the dataset is located. It could be directly uploaded in the session or could be hosted on your google drive. 
@@ -197,3 +197,4 @@
 ## Model Performance
 - If you didn't specify a google drive path, your output files of model training notebook are only limited to that session.
 - For evaluating model performance specify the same Destination 1 (Google drive path) and run the notebook to get access to different measures of accuracy. 
+ -->
