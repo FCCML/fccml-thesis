@@ -1,10 +1,13 @@
 # fccml-thesis
 
-Acknowledgements: 
-- Prof Daniela Bortoletto
-- Prof Phil Blunsom
-- Dr Michele Selvaggi
-- Dr Loukas Gouskos
+Graph Neural Networks for Particle Physics
+
+# Acknowledgements: 
+
+- Prof Daniela Bortoletto, University of Oxford 
+- Prof Phil Blunsom, University of Oxford 
+- Dr Michele Selvaggi, CERN
+- Dr Loukas Gouskos, CERN
 
 # Experiment 1.x: Data processing, analysis, visualisation
 - Builds the 3 graph datasets for two processing schemes: fixed size graph data sets and variable size datasets: ```fcc_experiment_1.x_both_fixed_and_variable_sized_graphs.ipynb```
